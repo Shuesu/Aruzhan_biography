@@ -1,0 +1,88 @@
+/* Общие стили */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Шапка */
+header {
+  background-color: #87ceeb; /* Светло-голубой */
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Фото профиля */
+.avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto; /* Центрируем */
+}
+
+/* Секции */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile,
+.info,
+.goals,
+.contact {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки */
+h2 {
+  color: #2b7cb8;
+  font-size: 22px;
+}
+
+/* Список без точек */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+/* Фото увлечений теперь по центру */
+.hobby {
+  text-align: center; /* Центрируем текст */
+  margin-bottom: 20px;
+}
+
+.hobby-img {
+  width: 500px; /* Сделал фото увлечений больше */
+  height: 370px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto; /* Центрируем фото */
+}
+
+/* Контакты */
+a {
+  color: #2b7cb8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
